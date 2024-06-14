@@ -1,0 +1,568 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./style/home.css">
+    <title>Meu Portfólio</title>
+</head>
+<body>
+
+<header>
+<!-- Bootstrap NavBar -->
+<nav class="navbar navbar-expand-lg" style="background-color: transparent;">
+    <div class="container">
+        <!-- Logotipo -->
+        <i class="navbar-brand" href="#">
+            <img src="../img/logo-senai.png" alt="Logo">
+        </i>
+        <!-- Botão de alternância para menu responsivo -->
+        <button class="navbar-toggler custom-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span id="toggleIcon" class="navbar-toggler-icon">&equiv;</span> <!-- Ícone padrão do toogle -->
+        </button>
+        
+        
+        <!-- Links do menu -->
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#TA">TA</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#Web">Desenvolvimento Web</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#Banco-de-Dados">Banco de Dados</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#Linguagem-de-Programacao">Linguagem de Programação</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#Ciencia-de-dados">Ciência de Dados</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+</header>
+
+<main>
+    <div class="container-1">
+        <div class="spinner" >
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+        <h1 id="welcome-message"></h1>
+    </div>
+    
+
+    <div class="popup" id="popup-TA">
+        <div class="popup-content">
+            <!-- Adicione o botão "X" -->
+            <span class="close">&times;</span>
+            <!-- Conteúdo do pop-up para o link "TA" -->
+            <h2>TA</h2>
+            <p class="p-conteudo">
+                topicos: Linguagem de Programação C++,Arduino e ESP32, projetos 
+            </p>
+            <br>
+            <div class="conteudo">
+                <h3>INTRODUÇÃO:</h3>
+                <p class="p-conteudo">
+                    No decorrer das aulas aprendemos sobre como podemos nos programadores trabalhar em conjunto com a Automação Industrial
+                    e juntar código com hardware aprendemos um pouco de <b>C++ a lingaugem utilizada</b> nesse tipo de Hardware foram projetos
+                    que ajudaram muito no intendimento da matéria e desenvolvemos alguns projetos práticos no caso vou citar dois projetos
+                    que fizemos que contaram para a nota um no Arduino e outro em ESP32
+                </p>
+
+                <h3>DESENVOLVIMENTO:</h3>
+                <p class="p-conteudo">
+                    Bom falando um pouco sobre esses dois projetos o do arduino tanto o do ESP32 foram interessantes pois forçaram a nossas cabeças
+                    a penssarem em como resolver problemas com a automação e melhoraramos a nossa lógica já que no processo que foi feito na prova do arduino
+                    tivemos que cirar um sistema de login um crud no caso onde cadastramos senhas e usuários podiamos visualisá-los logar deslogar e por fim
+                    excluir os usuários e poder repetir o processo, já no do processo do ESP32 treinos loop criar funções assim como no arduino apredemos sobre 
+                    o display <b>LCD</b> e como resetar e tabém com a contagem de clicks projetos legais que deram uma boa nossão de como a área funciona 
+                </p>
+
+                <h3>PROJETOS:</h3>
+                <p class="p-conteudo">
+                    Logo a baixo podemos ver as imagens das dusa placas de hardware no caso o <b>Arduino</b> e o <b>ESP32</b>
+                    <br><br>
+                    <div class="img-center">
+                        <img src="../img/ARDUINO.jpg" alt="" class="img-temp-1">
+                        <img src="../img/ESP32.webp" alt="" class="img-temp-1">
+                    </div>
+                </p>
+            </div>
+        </div>
+    </div>
+    
+    <div class="popup" id="popup-Web">
+        <div class="popup-content">
+            <!-- Adicione o botão "X" -->
+            <span class="close">&times;</span>
+            <!-- Conteúdo do pop-up para o link "Desenvolvimento Web" -->
+            <h2>Desenvolvimento Web</h2>
+            <p class="p-conteudo">topicos: como a web funciona, o protocolo http e https, falar um pouco sobre o css e html 
+                e sobre javascript, e um pouco de fila e pila
+            </p>
+            <br>
+            <div class="conteudo">
+                <h3>INTRODUÇÃO:</h3>
+                <p class="p-conteudo">
+                    Ola, hoje iremos rever um pouco oque foi visto e dito durantes as aulas de web e rever alguns 
+                    projetos realizados em aula no final haverá um link do github para ver a raiz dos meus códigos
+                </p>
+
+                <h3>DESENVOLVIMENTO:</h3>
+                <p class="p-conteudo">
+                    Bom neste começo irei falar um pouco sobre os temas abordados durante as aulas iremos passar pelos 
+                    seguintes temas como a web funciona os protocolos http e https mas de forma rápida e simples iremos 
+                    ver tambem sobre html e css e o javascript mas de forma bem resumida a web dunciona da seguinte forma 
+                    você tera um servidor onde ficara hospedado o site que deseja acessar se você for um programador e o 
+                    site ou software ainda estiver em desenvolvimento esta em localhost ou seja hospedado em sua propria 
+                    maquina mas não podera ser acessado por outras pessoas a não ser que você abra para que as pessoas 
+                    que estejam em sua rede possam acessar ou você pode abrir as portas do seu roteador e hospedar localmente 
+                    o seu site ou software para que as pessoas do mundo possam a acessar mas isso e mais para a are de redes 
+                    do que do desenvolvimento web mas no final tudo se interliga mas voltando quando uma pessoa vai acessar 
+                    um site apos fazer uma pesquisa ou acessar um link o computador ou dispositivo da pessoa ira fazer uma 
+                    requição para o servidor e atraves do protocolo http ou https ele ira determnianar se as infromações 
+                    seram passadas e recebidas de forma criptografada na requisição para a segurança e maior credibilidade 
+                    para o seu produto o servidor vai devolver a requição feita com uma copia do site original para que você 
+                    possa acessar e navegar de forma bem resumida mesmo e assim que a web funciona
+                    e para finalizar de forma bem resumida o html semantico e dar nome e sentido as coisas saber oque 
+                    cada parte faz e deixando assim seu código mais limpo e organizado
+                    <div class="img-center">
+                        <img src="../img/web.png" alt="" class="img-temp-1">
+                    </div>
+                </p>
+
+                <h3>HTML:</h3>
+                <p class="p-conteudo">
+                    html uma linguagem da web mas ela não e classifica como linguagem de programação e sim de marcação vamos 
+                    classifica-lá como o esqueleto de um corpo humano o exemplo mais comum usado para explicar a como funciona 
+                    esses 3 elementos importantes para a web, mas voltando o html e o esqueleto por contruir a estrutura da 
+                    web os textos os titulos. A sigla html significa HyperText Markup Language sua indentificação para o 
+                    navegador poder ler e nome-do-arquivo.html que indetifica que aquele arquivio e um arquivo html ele tambem 
+                    tem suas tags e sua estrutura padrão fica um ola mundo em imagem para que possa ficar melhor a compreenção
+                    <br><br>
+                    <div class="img-center">
+                        <img src="../img/htmlCODE.png" alt="" class="img-temp-1">
+                        <img src="../img/html.webp" alt="" class="img-temp-1">
+                    </div>
+                </p>
+
+                <h3>CSS:</h3>
+                <p class="p-conteudo">
+                    css também não é uma linguagem de programação mas sim Cascading Style Sheet ou seja folha de estilo em cascata 
+                    ela vai ser a pela do nosso corpo os olhos o cabelo toda a parte visual que o usuário pode ver ele quem dará uma 
+                    visão mais bonita para o nosso site já que é responsavel pelo seu estilo dele
+                    <div class="img-center">
+                        <img src="../img/cssCODE.png" alt="" class="img-temp-1">
+                        <img src="../img/css.png" alt="" class="img-temp-1">
+                    </div>
+                </p>
+
+                <h3>JAVASCRIPT:</h3>
+                <p class="p-conteudo">
+                    E por fim chegamos ao Javascript que finalmente é uma linguagem de programação aqui vai um pouco da 
+                    sua historia 
+                    de acordo com o google:
+                    Visando o potencial da Internet para o público geral e a necessidade de haver uma interação maior do 
+                    usuário com 
+                    as páginas, a Netscape, criadora do navegador mais popular do início dos anos 90, de mesmo nome, criou o 
+                    Livescript, uma linguagem simples que permitia a execução de scripts contidos nas páginas dentro do próprio 
+                    navegador.
+                    <br><br>
+                    Aproveitando o iminente sucesso do Java, que vinha conquistando cada vez mais espaço no mercado de 
+                    desenvolvimento de aplicações corporativas, a Netscape logo rebatizou o Livescript como JavaScript num 
+                    acordo com a Sun para alavancar o uso das duas. A então vice-líder dos navegadores, Microsoft, adicionou 
+                    ao Internet Explorer o suporte a scripts escritos em VBScript e criou sua própria versão de JavaScript, 
+                    o JScript.
+                    <br><br>
+                    JavaScript é a linguagem de programação mais popular no desenvolvimento Web. Suportada por todos os 
+                    navegadores, 
+                    a linguagem é responsável por praticamente qualquer tipo de dinamismo que queiramos em nossas páginas.
+                    <br><br>
+                    Se usarmos todo o poder que ela tem para oferecer, podemos chegar a resultados impressionantes. Excelentes 
+                    exemplos disso são aplicações Web complexas como Gmail, Google Maps e Google Docs.
+                    <br><br>
+                    <b> REFERÊNCIA: <a href="https://www.alura.com.br/apostila-html-css-javascript/38CA-eventos-com-javascript">https://www.alura.com.br/apostila-html-css-javascript/38CA-eventos-com-javascript</a> </b>
+                    <br><br>
+                    é uma linguagem pode ajudar a dar vida ela e os musculos e os celebro do nosso corpo ou seja ela e 
+                    responsavel por 
+                    dar vida ao site fazer os botões funcionar, efeitos e vai depender muito da criatividade do programador depois de 
+                    um tempo ela recebeu alguns frameworks que ajudam nas cronstruções de aplicações maias robustas e evitando 
+                    tambem  
+                    do programador ter que ficar criando tudo do zero temos hoje o react,o Angular o Vue.js e assim vai existem hojes 
+                    muitas libs tambem para o javascript vai depender de cada projeto temos o node.js que não é um framework 
+                    nem uma 
+                    linguagem embora ele seja javascript ela foi criada pelo seguinte proposito poder rodar o jasvascript fora do 
+                    navegador hoje ele é igual o python se deixar ele roda até em torradeira e micro-ondas deixei uma foto 
+                    com um 
+                    script criado nesse portifolio e usado para fazer a tela de carregamento
+                    <br><br>
+                    <div class="img-center">
+                        <img src="../img/jsCODE.png" alt="" class="img-temp-1">
+                        <img src="../img/js.png" alt="" class="img-temp-1">
+                    </div>
+                </p>
+
+                <h3>PILA E FILA:</h3>
+                <p class="p-conteudo">
+                    De forma muito rápida pila o conceito e o ultimo item a ser adicionado e o primeiro a ser retirado
+                    e a fila é um conceito de a primeira pessoa que chegou em algum lugar a primeira a ser atendida ou a primeira
+                    a entrar em algum lugar
+                    <div class="img-center">
+                        <img src="../img/pilha.png" alt="" class="img-temp-1">
+                        <img src="../img/fila.png" alt="" class="img-temp-1">
+                    </div>
+                </p>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    
+    <div class="popup" id="popup-Banco-de-Dados">
+        <div class="popup-content">
+            <!-- Adicione o botão "X" -->
+            <span class="close">&times;</span>
+            <!-- Conteúdo do pop-up para o link "Banco de Dados" -->
+            <h2>Banco de Dados</h2>
+            <p class="p-conteudo">
+                topicos: oque é um banco de dados, tipos de bancos de dados, padronizações
+            </p>
+            <br>
+            <div class="conteudo">
+                <h3>INTRODUÇÃO:</h3>
+                <p class="p-conteudo">
+                    Bom sobre o tema banco de dados vimos e passamos por vários tópicos e por final de semestre vimos o NO SQL que vou falar um pouco
+                    do que conheço, no caso o <b>SQL</b> se tornou muito mais importante pois hoje aplicações mobile e web e entre outras usam banco de
+                    dados se uma aplicação e dinâmica e precisa armazenar dados o banco de dados será a sua solução então vamos para as explicações 
+                </p>
+
+                <h3>DESENVOLVIMENTO:</h3>
+                <p class="p-conteudo">
+                    <b>Banco de dados</b> a ferramenta que nenhuma aplicação <b>dinâmica</b> vai viver sem alias tudo hoje que usamos precisa de um 
+                    <b>banco de dados</b>, dentro dele vai haver varias partes temos os diagramas que vão auxiliar  de forma muito importante nas 
+                    aplicações que criamos ou que já foram criadas como o professor nos ensionou as relações entre as tabelas relações de <b>N PRA 1 DE 1 PRA N</b>
+                    sobre criar tabelas auxiliares vamos falar um pouco tambem mais pra frente sobre as padronizações uma que vimos foi a <b>DML (Data Manipulation Language) </b>
+                    que vamos explicar um pouco mais a baixo
+                </p>
+
+                <h3>ESTILOS DE BANCOS:</h3>
+                <p class="p-conteudo">
+                    Não são bem estilos mas sim opções pois existem dois tipos os bancos relacionais e não relacionais uma usa a <b>SQL</b> e o <b>NO SQL</b>
+                    o <b>SQL</b> será muito um pouco mais rigida por assim dizer já que você irá organizar por tabelas e elas precisam se relacionar entre si
+                    segue alguns padrões importantes e segue uma estruturá já predefinida de uma pessoa ou de uma equipe, já o <b>NO SQL</b> eles são mais
+                    flexiveis em estruturas de dados usam um formato json e adotam diferentes modelos de dados, como documentos, chave-valor, colunas ou grafos
+
+                    <br><br>
+                    <div class="img-center">
+                        <img src="../img/sql.png" alt="" class="img-temp-1">
+                        <img src="../img/mongoDB.png" alt="" class="img-temp-1">
+                    </div>
+                </p>
+
+                <h3>PADRÕES DML E DDL:</h3>
+                <p class="p-conteudo">
+                    Os padrões vão deixar o seu banco de dados muito melhor já que seguiram um padrão
+                    e ficará mis legivel e melhor na armazenamento dos dados e melhorar a consulta em seu banco de
+                    dados.
+                    <br><br>
+                    De forma resumida temos os padões do DML E DDL vamos explicar da maenira mais rapida cada padrão sem enrolação
+                    <br><br>
+                    <b>DML: </b>Manipula os dados dentro das tabelas (SELECT, INSERT, UPDATE, DELETE)
+                    <br><br>
+                    <b>DDL: </b>Define a estrutura do banco de dados (CREATE, ALTER, DROP)
+                </p>
+
+                <h3>COMANDOS PADRÕES DO SQL:</h3>
+                <p class="p-conteudo">
+                    Nesse tópico peguei um imagem e separei alguns comandos SQL que vimos e que aprendemos 
+
+                                        <br><br>
+                    <b>CREATE TABLE:</b> Cria a tabela Funcionarios com campos para id, nome, cargo e salario.
+                    <br><br>
+                    <b>INSERT INTO:</b> Insere três registros na tabela Funcionarios com informações de funcionários.]
+                    <br><br>
+                    <b>SELECT:</b> Seleciona todos os registros da tabela Funcionarios.
+                    <br><br>
+                    <b>UPDATE:</b> Atualiza o salário do funcionário com id = 1.
+                    <br><br>
+                    <b>DELETE:</b> Remove o funcionário com id = 2 da tabela Funcionarios.
+                    <br><br>
+                    <b>ALTER TABLE:</b> Adiciona um novo campo email à tabela Funcionarios.
+                    <br><br>
+                    <b>DROP TABLE:</b> Remove permanentemente a tabela Funcionarios do banco de dados.
+                    <br><br>
+                    <b>CREATE INDEX:</b> Cria um índice na coluna nome da tabela Funcionarios para melhorar a performance das consultas.
+                    <br><br>
+                    <b>INNER JOIN:</b> Combina dados da tabela Funcionarios com a tabela Departamentos usando uma chave estrangeira.
+                    <br><br>
+                    <b>GRANT:</b> Concede permissões específicas para um usuário (usuario) no localhost.
+                    <br><br>
+                    <b>REVOKE:</b> Revoga as permissões previamente concedidas para o mesmo usuário.
+                    <br><br>
+                    <div class="img-center">
+                        <img src="../img/comandSQL.png" alt="" class="img-temp-1  image-comandSQL">
+                    </div>
+
+
+
+                </p>
+                
+            </div>
+        </div>
+    </div>
+
+
+
+
+    
+    <div class="popup" id="popup-Linguagem-de-Programacao">
+        <div class="popup-content">
+            <!-- Adicione o botão "X" -->
+            <span class="close">&times;</span>
+            <!-- Conteúdo do pop-up para o link "Linguagem de Programação" -->
+            <h2>Linguagem de Programação</h2>
+            <p class="p-conteudo">topicos: tipos primitivos, exercicios de lógica, estrutura de condição, estrutura de repetição,funções,Orientação a objetos e seus pilares.</p>
+            <br>
+            <div class="conteudo">
+                <h3>INTRODUÇÃO:</h3>
+                <p class="p-conteudo">
+                    Ola Cainã professor dessa matéria, Nessa página do meu portifolio irei falar um pouco sobre o tema da linguagem de programação 
+                    em qual escolhido por você foi a linguagem de programação Java iremos abordar sobre os seguintes topicos apresentados nas aulas 
+                    ao decorrer do semestre no caso oque é uma linguagem de programação como o computador funciona, tipos primitivos, exercicios de 
+                    lógica, estruturas de condição e repetição, funções e por fim a orientação a objetos e seus pilares como abordado no final das 
+                    ultimas aulas
+                </p>
+
+                <h3>DESENVOLVIMENTO:</h3>
+                <p class="p-conteudo">
+                    De forma resumida como vimos nas primeiras aulas, um computador interpreta os comandos dados a ele por uma linguagem conhecida como binária uma linguagem que so etende os números 0 e 1 e como podemos passar esses comandos pra ele ? de Uma maneira muito "simples" atráves das linguagens de programação que podem ser subdivididas em linguagens de alto e baixo nível como o próprio nome já se auto descreve quando mais baixo o nível da linguagem por exemplo a linguagem assembly oque torna ela mais rapida e eficaz mas com seus porens são mais complicadas e distante da linguagem humana, diferente já das linguagens de alto nivel que são liguagens mais faceis do entendimento humano mas são mais lentas do que linguagens de baixo nivel.
+                    <br><br>
+                    Os tipos primitivos em Java incluem inteiros, números de ponto flutuante, caracteres e booleanos, entre outros. Eles fornecem a base sobre a qual os programas são construídos, permitindo que nós pudessemos manipular os dados de maneira eficiente e precisa. Quando entendemos os tipos primitivos e como eles são usados e como funcionam , nós podemos criar algoritmos poderosos e eficazes para resolver uma variedade de problemas. Onde podemos engatar o assunto e entrar na lógica de programação onde fica mais simples escrever os programas quando se tem ela, fora a eficiencia que você adquire no seu código pois sem ela e muito mais dificil o desenvolvimento e é essencial para um programador e sua base.
+                    <br><br>
+                    E agora vamos entender um pouco sobre a linguagem Java e entender sobre suas funções e pilares da arte da programação orientada a objetos:
+                    <br><br>
+                    Java é uma linguagem de programação e plataforma de computação liberada pela primeira vez pela Sun Microsystems em 1995. De um início humilde, ela evoluiu para uma grande participação no mundo digital dos dias atuais, oferecendo a plataforma confiável na qual muitos serviços e aplicativos são desenvolvidos.
+                    <br><br>
+                    <b>REFERÊNCIA:<a href="https://www.java.com/pt-BR/download/help/whatis_java.html">https://www.java.com/pt-BR/download/help/whatis_java.html</a></b>
+                    <br><br>
+                    dentro do Java podemos encontrar as tipos primitivos,funções,matrizes,estruras de condição e repetição e o POO a famosa orientação a objetos onde agora vamos passar tópico por tópico até vermos como foi aprendido em cada parte, com imagens ilustrativas e explicando o conceito de cada parte apresentada acima.
+                    <br><br>
+                    Tipos Primitivos:
+                    Os tipos primitivos em Java são como os blocos de construção básicos que usamos para criar programas. Cada um tem uma função específica e são palavras reservadas da linguagem ou seja as váriaves não podem conter esses nome vai alguns exemplos e as informações de cada tipo primitivo:
+                    <br><br>
+                    int: Para números inteiros, como 1, 2, -5.
+                    double: Para números decimais, como 3.14, 0.5, -10.8.
+                    boolean: Para valores verdadeiros ou falsos, como true ou false.
+                    char: Para caracteres individuais, como 'a', 'B', '?'.
+                    byte, short, long, float: Para outros tipos de números com diferentes faixas de valores.
+                    <br><br>
+                    Então, esses tipos primitivos são como as peças fundamentais que usamos para construir nossos programas Java, cada um com sua própria função e funcionalidade expecífica.
+                    <div class="img-center">
+                        <img src="../img/logoJava.png" alt="" class="img-temp-1">
+                    </div>
+                </p>
+
+
+                <p class="p-conteudo">
+                    Também durante as aulas foram realizados alguns exercicios para melhorar a nossa lógica oque como já comentado acima é um dos melhores exercicios para programadores inciantes pois sem a lógica você não ira muito longe e pensando nisso pensei em deixar o link dos exercicios feitos em aula em um botão em formato de link ao final desta página que você pode analisar os exercicios realizados em aula
+                    <br><br>
+                    Mas voltando para o assunto principal vamos falar um pouco sobre estruturas de decisão o famoso IF`s e Else`s da vida e o switch case bom as estruturas de decisão nada mais são do que lógicas criadas e transformadas em blocos de códigos para tomar decisões um exemplo disso é telas de login, verificações do tipo se tal coisa for verdadeira faça isso se não não faça isso e como o seu código e como se fosse uma rotina cheia de tarefas para serem realizadas o longo do dia já o swicht case veio para melhorar um pouco a visibiliade do código eu vejo por este lado já que sua função e bem parecida como a do if else if e else so que para deixar o código mais legivel e não encher o seu codigo de IFs um exemplo desse tipo pode ser aquele famoso projeto de caixa eletronico onde ele exibe um menu e cada numero tem uma função inves de um IF e else que tal usar switch alem de deixar seu codigo mais limpo e mais legivel tanto para o proximo programador que for dar manutenção ao seu código aqui vai algumas fotos relacionadas a esse assunto:
+                    <br><br>
+                    <div class="img-center">
+                        <img src="../img/IFELSE.png" alt="" class="img-temp-1">
+                        <img src="../img/switch.png" alt="" class="img-temp-1">
+                    </div>
+                </p>
+
+                <p class="p-conteudo">
+                    Vamos ver agora sobre a estrutura de repetição os loops existem algumas variações e seram apresentadas com fotos e na sua descrição como cada uma funciona
+                    mas de forma geral como seu proprio nome ja descreve são blocos de código que tem a função de repetição de algo. Pensa comigo, você quer imprimir na tela todos os números pares e impares até o numero 1 milhão seria quase impossivel alem de inutil então porque não fazer um loop que percorre em questão de mili segundos todos os números até o 1 milhão e aproveitando o conhecimento dos tipos primitivos e das estrututas de condição e a lógica você pode chegar a esse algoritimo incrivel sem gastar nem 10 minutos da nossa vida veja abaixo alguns exemplos de loops que é possivel fazer e com suas descrições
+
+                    <div class="img-direita">
+                        <img src="../img/for.png" alt="" class="img-temp-1">
+                        <div class="titulo-conteudo">
+                            <h3>FOR</h3>
+                            <p class="p-conteudo">
+                                Usamos esse laço quando sabemos quantas vezes o nosso loop será executado e ele tem 3 partes
+                                inicialização,condição e decidir se vai incrementar decrementar ou qual operação matemática voce vai fazer.
+                            </p>
+                        </div>
+                    </div>
+                    <br><br>
+                    <div class="img-esquerda">
+                        <img src="../img/foreach.png" alt="" class="img-temp-1">
+                        <div class="titulo-conteudo">
+                            <h3>FOREACH</h3>
+                            <p class="p-conteudo">
+                                Já este tipo de laço de repetição é usado geralmente para percorrer listas imagina o outro for ou qualquer outro laço
+                                pode fazer oque cada um faz mas depende muito do seu objetivo geralmente ele e melhor para percorrer e para a exibição
+                                dos dados obtidos temos Também a possibilidade de pegar a chave do indice e assim vai.
+                            </p>
+                        </div>
+                    </div>
+                    <br><br>
+                    <div class="img-direita">
+                        <img src="../img/while.png" alt="" class="img-temp-1">
+                        <div class="titulo-conteudo">
+                            <h3>WHILE</h3>
+                            <p class="p-conteudo">
+                                Usado para quando você tem uma condição que é verdadeira então ela vai ficar executando até tiver alguma coisa
+                                que faça ele parar no caso o comando <b>"BREAK"</b> você pode usar ele quando não tiver ideia de quantas vezes 
+                                você precisará executar aquele linha de loop
+                            </p>
+                        </div>
+                    </div>
+                    <br><br>
+                    <div class="img-esquerda">
+                        <img src="../img/doWhile.png" alt="" class="img-temp-1">
+                        <div class="titulo-conteudo">
+                            <h3>DO WHILE</h3>
+                            <p class="p-conteudo">
+                                Por fim e não menos importante temos o DO WHILE que tem a mesma logica do while e dos outros loops
+                                só que invés dele percorrer o loop todo antes de fazer a primeira execução ele vai executar pelo menos uma vez
+                                o código antes de quebrar ou sair da condição de loop
+                            </p>
+                        </div>
+                    </div>
+                    <br><br>
+                    <h3>MATRIZ</h3>
+                    <p class="p-conteudo">
+                        agora vamos de matiz. Em Java, uma matriz é basicamente uma tabela bidimensional composta por linhas e colunas, onde cada elemento é acessado por meio de coordenadas (linha, coluna). Você pode pensar em uma matriz como uma grade de células, onde cada célula pode armazenar um valor um exemplo legal de projeto pode ser um jogo de batalha naval aquele das bombas nas aulas aprendemos alguns tipos de matriz e como fazer as buscas dentro delas então abaixo deixarem algumas fotos
+                        <div class="img-center">
+                            <img src="../img/matriz-1.png" alt="" class="img-temp-1">
+                            <img src="../img/matriz-2.png" alt="" class="img-temp-1">
+                        </div>
+                    </p>
+                    <br><br>
+                    <h3>FUNÇÕES</h3>
+                    <p class="p-conteudo">
+                        Um dos topicos muito importantes abordados nas linguagens de programação são as funções, qual e o seu papel? na real e bem simples o papel das funções e de evitar repetição de código imagina que voce tem uma mensagem que voce tem que exibir ela varias vezes e voce fica copiando e colando ela em varias partes do seu código imagina se um dia essa mensagem muda e seu código já se tornou profissional e está gigante e cheio de linhas de códigos não seria nada legal ir mudando em várias partes do código por isso usamos as funções que tem essa função de não deixar que códigos possam se repetir e de se precisar mudar algo e so mudar na função e adaptar algumas pequenas partes do código principal ou as vezes nem precisar mudar.
+                        <div class="img-center">
+                            <img src="../img/funcao.png" alt="" class="img-temp-1">
+                        </div>
+                    </p>
+
+                    <h3>POO</h3>
+                    <p class="p-conteudo">
+                        E estamos chegando ao fim vamos abordar o ultimo assunto este ultimo assunto e o POO a orientação a objetos não é um tópico simples pois já exige que a pessoa já tenha alguns conhecimentos avançados e possa entender os seus pilares e se seguir podera obter resultados incriveis tanto de produção manutenção e versionamento de código a orientação a objetos ela começa no mundo das ideias e conforme voce vai modelando aquela ideia ela vem para o mundo real e na programação ela e tranformada em uma Classe onde irá possuir os atributos,metodos construtores que irei explicar mais tarde por partes mas a orientação a objetos possuim seus pilares que são Abstração,Encapsulamento,Herança,Poliformismo irei explicar de forma resumida como cada pilar funciona para não perder muito tempo
+                        <br><br>
+                        Encapsulamento: Oculta os detalhes internos de uma classe, permitindo o acesso controlado aos seus membros por meio de métodos. Isso promove a segurança e a modularidade do código
+                        <br><br>
+
+                        Herança: Permite que uma classe herde características (atributos e métodos) de outra classe. Isso promove a reutilização de código e facilita a criação de hierarquias de classes.
+                        <br><br>
+                        Polimorfismo: Permite que objetos de diferentes classes sejam tratados de maneira uniforme, possibilitando a substituição de métodos em tempo de execução. Isso promove flexibilidade e extensibilidade no código.
+                        <br><br>
+                        Abstração: Permite representar conceitos do mundo real em forma de classes e objetos, focando nos aspectos relevantes e ignorando os detalhes desnecessários. Isso promove a simplificação e o entendimento do sistema.
+                        <br><br>
+                        Bom de forma resumida esses são os quatro pilares importantes eu sei que ainda temos muito para aprender sobre isso mas uma das partes que vimos foi tambem a parte das interfaces que são como se fosse contratos que uma classe assume quando é criada e implementa a interface ou seja ela tera que ter os atributos herdados por ela se não dara erros e por fim veja algumas imagens e com explicações sobre construtor a formação de uma classe.
+                        <div class="img-center">
+                            <img src="../img/pilaresPOO.webp" alt="" class="img-temp-1">
+                        </div>
+                    </p>
+
+
+                </p>
+            </div>
+        </div>
+    </div>
+    
+    <div class="popup" id="popup-Ciencia-de-dados"> <!-- Corrigido para "popup-Ciencia-de-dados" -->
+        <div class="popup-content">
+            <!-- Adicione o botão "X" -->
+            <span class="close">&times;</span>
+            <!-- Conteúdo do pop-up para o link "Ciência de Dados" -->
+            <h2>Ciência de Dados</h2>
+            <p class="p-conteudo">
+                topicos: Amostragem,Calculos,Qui-Quadrado
+            </p>
+            <br>
+            <div class="conteudo">
+                <h3>INTRODUÇÃO:</h3>
+                <p class="p-conteudo">
+                    Como por alguns imprevistos tivemos poucas aulas de ciências de dados, eu coloquei o <b>LINK DO COLAB</b> no meu perfil
+                    como foi orientado pelo professor mas mesmo assim irei explicar um pouco sobre amostragem em ciências de dados e um pouco sobre 
+                    o <b>QUI-QUADRADO</b> visto recentemente que o <b>PROFESSOR ANDRE</b> recomendou ter no portifolio então explicarei como funciona a
+                    formula e onde poderia utiliza-lá de forma prática
+                </p>
+
+                <h3>DESENVOLVIMENTO:</h3>
+                <p class="p-conteudo">
+                    Começando pela <b>AMOSTRAGEM</b> vista em aula bom aprendemos um pouco sobre python e sobre seu poder em relação forte em ciência de dados
+                    podemos represnetar a <b>AMOSTRAGEM</b> que basicamente se resume a pegar um número de dados e tirar uma conclusão ou tomar uma decisão da melhor
+                    e mais eficiencia possivel por exemplo é muito importente saber de onde se coleta os dados e como podemos depois disso tirar as conclusões deles
+                    decidindo quais calculos vamos realizar por exemplo não podemos tirar uma conclusão de quantos animais vivem em uma região que tanto terrestre quanto
+                    possui lagos e só registrar os aniamis terrestre não poderemos chegar a um total sendo que se a vida naquele lago ou mar estariamos perdendo
+                    dados esses mêtodo é muito importante para diversas áreas de trabalho por exemplos empresas grandes aquela sensação de que estamos sendo <b>"ESPIONADOS"</b>
+                    pelos nosssos aparelhos quando falamos nossa queria tanto um celular novo e o algorito busca e joga apenas anuncios de celulares novos pq atráves dos dados
+                    amostrados em cima das suas pesquisas e tipos de video ele entendeu que você precisa de um <b>"CELULAR NOVO"</b> basicamente é isso obrigado!
+                </p>
+
+                <h3>Qui-Quadrado:</h3>
+                <p class="p-conteudo">
+                    O teste do qui-quadrado é utilizado para verificar se existe uma relação significativa entre as variáveis categóricas em um conjunto de dados. 
+                    Aqui está uma explicação muito resumida de como funciona o teste qui-quadrado verifica se as diferenças entre as frequências 
+                    observadas e esperadas são grandes o suficiente para afirmar que há uma relação entre as variáveis categóricas.
+
+                    E de acordo com o <b>GOOGLE</b> a formula funciona da seguinte maneira:
+                    <br><br>
+                    Interpretação:
+                    <br><br>
+                    Compara-se o valor calculado de χ² com um valor crítico da distribuição qui-quadrado.
+                    Se χ² calculado for maior que o valor crítico, rejeita-se H0 e conclui-se que há relação significativa entre as variáveis.
+                    Caso contrário, não se rejeita H0 
+                    <br><br>
+                    <div class="img-center">
+                        <img src="../img/formula.JPG" alt="" class="img-temp-1">
+                    </div>
+                </p>
+        </div>
+    </div>
+    </div>
+    
+    
+    
+
+    <div class="botao-inicio">
+        <button class="observacao">VEJA O MEU PERFIL</button>
+    </div>
+
+    <div class="popup-portifolio" id="popup">
+        <div class="popup-content">
+            <span class="close" id="close">&times;</span>
+            <div class="img-perfil">
+                <div class="text-imagem">
+                    <h1 class="texto-perfil">MEU PERFIL</h1>
+                    <img src="../img/perfil.png" alt="" class="minha-imagem">
+                </div>
+                <div class="botoesLinks">
+                    <button class="botao-perfil" onclick="github()"><img src="../img/logoGit.png" alt="" class="logo-github">GITHUB</button>
+                    <button class="botao-perfil" onclick="colab()"><img src="../img/googlecolab.svg" alt="" class="logo-github">COLAB</button>
+                </div>
+            </div>
+            </div>
+        </div>
+    </div>
+</main>
+
+
+<script src="./js/home.js"></script>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,632 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Mega:wght@100..900&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-image: radial-gradient(circle, #111216, #111216, #111216, #111216, #111216, #111216, #111215, #111215, #111214, #111113, #111112, #111111);
+    background-color: #111216;
+    overflow: hidden;
+
+    font-family: "Lexend Mega", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 100px;
+    font-style: normal;
+}
+
+header {
+    color: #fff;
+    padding: 10px 0;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+ul {
+list-style-type: none;
+padding: 0;
+}
+
+li {
+margin: 10px 0;
+}
+
+
+
+a {
+text-decoration: none;
+color: #fff; /* Cor do texto branca */
+padding: 10px 20px; /* Aumenta o padding */
+position: relative;
+display: inline-block;
+
+}
+
+a::before {
+content: '';
+position: absolute;
+width: calc(100% + 20px); /* Adiciona espaço extra para a borda */
+height: calc(100% + 20px); /* Adiciona espaço extra para a borda */
+top: -10px; /* Move para cima para compensar o espaço extra */
+left: -10px; /* Move para a esquerda para compensar o espaço extra */
+border: 2px solid transparent;
+transition: border-color 0.3s ease-in-out;
+z-index: -1;
+}
+
+a:hover::before {
+border-color: #AFE614; /* Cor da borda quando o mouse passa por cima */
+}
+
+
+
+.gradiente{
+text-align: center;
+background: 
+    linear-gradient(90deg, #AFE614, white 50%) left,
+    linear-gradient(90deg, transparent 50%, black 50%) right,
+    linear-gradient(90deg, #AFE614, #AFE614) center;
+background-size: 200% auto;
+color: transparent;
+background-clip: text, text, text;
+-webkit-background-clip: text, text, text;
+animation: gradientPulse 15s linear infinite;
+}
+
+
+
+.container-1 {
+    margin: 0px;
+    padding: 20px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 50vh;
+    gap: 100px;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+#welcome-message {
+    font-size: 2em;
+    overflow: hidden;
+    white-space: nowrap;
+    margin: 0 auto;
+}
+
+.typing-animation {
+    border-right: .15em solid orange;
+    animation: typing 3.5s steps(40, end), blink-caret .75s step-end infinite;
+}
+
+@keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+}
+
+@keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: orange; }
+}
+
+.spinner {
+    width: 89.6px;
+    height: 89.6px;
+    animation: spinner-y0fdc1 2s infinite ease;
+    transform-style: preserve-3d;
+}
+
+
+
+.spinner > div {
+background-color: rgba(157, 255, 0, 0.2);
+height: 100%;
+position: absolute;
+width: 100%;
+border: 2.2px solid #AFE614;
+}
+
+.spinner div:nth-of-type(1) {
+transform: translateZ(-45px) rotateY(180deg);
+}
+
+.spinner div:nth-of-type(2) {
+transform: rotateY(-270deg) translateX(50%);
+transform-origin: top right;
+}
+
+.spinner div:nth-of-type(3) {
+transform: rotateY(270deg) translateX(-50%);
+transform-origin: center left;
+}
+
+.spinner div:nth-of-type(4) {
+transform: rotateX(90deg) translateY(-50%);
+transform-origin: top center;
+}
+
+.spinner div:nth-of-type(5) {
+transform: rotateX(-90deg) translateY(50%);
+transform-origin: bottom center;
+}
+
+.spinner div:nth-of-type(6) {
+transform: translateZ(45px);
+}
+
+@keyframes spinner-y0fdc1 {
+0% {
+transform: rotate(45deg) rotateX(-25deg) rotateY(25deg);
+}
+
+50% {
+transform: rotate(45deg) rotateX(-385deg) rotateY(25deg);
+}
+
+100% {
+transform: rotate(45deg) rotateX(-385deg) rotateY(385deg);
+}
+}
+
+#welcome-message{
+text-align: center;
+background: 
+    linear-gradient(90deg, #AFE614, white 50%) left,
+    linear-gradient(90deg, transparent 50%, black 50%) right,
+    linear-gradient(90deg, #AFE614, #AFE614) center;
+background-size: 200% auto;
+color: transparent;
+background-clip: text, text, text;
+-webkit-background-clip: text, text, text;
+animation: gradientPulse 5s linear infinite;
+font-size: 30px;
+}
+
+@keyframes gradientPulse {
+0% {
+    background-position: -100% 50%, 100% 50%, 0% 50%;
+}
+50% {
+    background-position: 100% 50%, -100% 50%, 0% 50%;
+}
+100% {
+    background-position: -100% 50%, 100% 50%, 0% 50%;
+}
+}
+
+.botao-inicio{
+text-align: center;
+}
+
+.observacao{
+background-color: #AFE614;
+padding: 15px;
+margin-bottom: 20px;
+border: none;
+font-size: 18px;
+border-radius: 5px;
+cursor: pointer;
+font-weight: bold;
+}
+
+
+
+.popup {
+    position: fixed;
+    border-radius: 10px;
+    top: 50%; /* Ajuste a porcentagem conforme necessário para posicionar mais para cima */
+    left: 50%;
+    transform: translate(-50%, -50%); /* Centraliza vertical e horizontalmente */
+    width: 80%; /* Ajuste conforme necessário */
+    max-width: 1200px; /* Largura máxima */
+    height: 900px; /* Altura automática */
+    max-height: 90%; /* Altura máxima */
+    display: none;
+    overflow: hidden;
+    backdrop-filter: blur(5px); /* Adiciona o efeito de vidro */
+}
+
+
+
+
+.popup-portifolio {
+    position: fixed;
+    border-radius: 10px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* Centraliza vertical e horizontalmente */
+    width: 400px;
+    height: 500px;
+    
+    display: none;
+    overflow: hidden;
+    backdrop-filter: blur(5px); /* Adiciona o efeito de vidro */
+}
+
+
+
+.popup-content {
+background-color: #1F2128;
+padding: 90px;
+max-width: 100%;
+max-height: calc(100% - 40px);
+overflow-y: auto; /* Permitir rolagem vertical */
+}
+
+.popup-content::-webkit-scrollbar {
+display: none; /* Oculta a barra de rolagem */
+}
+
+body::-webkit-scrollbar {
+display: none; /* Oculta a barra de rolagem */
+}
+
+.close {
+position: absolute;
+top: 30px;
+right: 40px;
+cursor: pointer;
+font-size: 60px;
+color: #AFE614;
+animation: tremor 0.1s infinite alternate;
+}
+
+@keyframes tremor {
+0% {
+transform: rotate(0deg);
+}
+100% {
+transform: rotate(5deg);
+}
+}
+
+
+.titulo-popup{
+color: #AFE614;
+text-align: center;
+margin: 40px 0px;
+}
+
+
+.popup-ul{
+display: flex;
+align-items: center;
+gap: 3px;
+color: #fff;
+}
+
+.popup-seta-cor{
+color: #AFE614;
+}
+
+.img-perfil{
+text-align: center;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+gap: 30px;
+}
+
+/* apagar depos */
+.minha-imagem{
+height: 150px;
+border-radius: 100%;
+margin-top: 5px;
+}
+
+.texto-perfil{
+color: #AFE614;
+text-align: center;
+font-size: 20px;
+border-bottom: 3px solid #AFE614;
+}
+
+.logo-github{
+height: 40px;
+}
+
+.botoesLinks{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.text-imagem{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.botao-perfil {
+background-color: #AFE614;
+padding: 5px;
+border: none;
+font-size: 17px;
+font-weight: bold;
+border-radius: 5px;
+cursor: pointer;
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 5px;
+animation: pulso 2s infinite ease-in-out;
+}
+
+@keyframes pulso {
+0% {
+transform: scale(1);
+}
+50% {
+transform: scale(1.07);
+}
+100% {
+transform: scale(1);
+}
+}
+
+
+
+
+.navbar-brand img {
+height: 150px; /* Ajuste a altura da imagem da marca conforme necessário */
+}
+
+.navbar-nav .nav-link {
+    text-align: center;
+    font-size: small;
+background: 
+    linear-gradient(90deg, #AFE614, white 50%) left,
+    linear-gradient(90deg, transparent 50%, black 50%) right,
+    linear-gradient(90deg, #AFE614, #AFE614) center;
+background-size: 200% auto;
+color: transparent;
+background-clip: text, text, text;
+-webkit-background-clip: text, text, text;
+animation: gradientPulse 15s linear infinite;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #AFE614; /* Cor do texto ao passar o mouse */
+}
+
+.custom-toggler .navbar-toggler-icon {
+background-size: cover;
+width: 30px; /* Ajuste o tamanho conforme necessário */
+height: 30px; /* Ajuste o tamanho conforme necessário */
+color: #AFE614;
+font-size: 35px;
+border-radius: 3px; /* Borda arredondada */
+}
+
+.custom-toggler:focus {
+outline: none; /* Remove a borda ao focar */
+}
+
+
+h2,h3{
+    color: #AFE614;
+}
+
+.p-conteudo{
+    color: #fff;
+}
+
+.img-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.img-direita{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.img-esquerda{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-direction: row-reverse;
+}
+
+.titulo-conteudo{
+    width: 500px;
+}
+
+.img-temp-1{
+    border: 1px solid white;
+    height: 300px;
+    width: 500px;
+}
+
+.image-comandSQL{
+    height: 700px;
+    width: 700px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 600px) {
+
+.popup {
+position: fixed;
+border-radius: 10px;
+top: 50%;
+left: 50%;
+width: 500px;
+height: 600px;
+margin-top: -250px; /* Metade da altura */
+margin-left: -250px; /* Metade da largura */
+
+display: none;
+overflow: hidden;
+backdrop-filter: blur(5px); /* Adiciona o efeito de vidro */
+}
+
+
+.popup-content {
+background-color: #1F2128;
+padding: 90px;
+max-width: 100%;
+max-height: calc(100% - 40px);
+overflow-y: auto; /* Permitir rolagem vertical */
+}
+
+.popup-content::-webkit-scrollbar {
+display: none; /* Oculta a barra de rolagem */
+}
+
+body::-webkit-scrollbar {
+display: none; /* Oculta a barra de rolagem */
+}
+
+.close {
+position: absolute;
+top: 20px;
+right: 60px;
+cursor: pointer;
+font-size: 50px;
+color: #AFE614;
+animation: tremor 0.1s infinite alternate;
+}
+
+@keyframes tremor {
+0% {
+transform: rotate(0deg);
+}
+100% {
+transform: rotate(5deg);
+}
+}
+
+
+.titulo-popup{
+color: #AFE614;
+text-align: center;
+margin: 40px 0px;
+}
+
+
+.popup-ul{
+display: flex;
+align-items: center;
+gap: 3px;
+color: #fff;
+}
+
+.popup-seta-cor{
+color: #AFE614;
+}
+
+.img-perfil{
+text-align: center;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+gap: 30px;
+}
+
+/* apagar depos */
+.minha-imagem{
+
+border-radius: 100%;
+}
+
+.texto-perfil{
+color: #AFE614;
+text-align: center;
+font-size: 20px;
+}
+
+.linha{
+border: 2px solid #AFE614;
+width: 200px;
+}
+
+.logo-github{
+height: 20px;
+}
+
+.botao-perfil {
+background-color: #AFE614;
+padding: 10px;
+border: none;
+font-weight: bold;
+border-radius: 5px;
+cursor: pointer;
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 5px;
+animation: pulso 2s infinite ease-in-out;
+}
+
+
+#welcome-message{
+text-align: center;
+background: 
+    linear-gradient(90deg, #AFE614, white 50%) left,
+    linear-gradient(90deg, transparent 50%, black 50%) right,
+    linear-gradient(90deg, #AFE614, #AFE614) center;
+background-size: 200% auto;
+color: transparent;
+background-clip: text, text, text;
+-webkit-background-clip: text, text, text;
+animation: gradientPulse 5s linear infinite;
+font-size: 27px;
+}
+}
+
+
+
